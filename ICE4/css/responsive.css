@@ -1,0 +1,14 @@
+
+
+@media only screen and (min-width: 650px){
+.top-nav ul{
+      margin:0;
+      padding:0;
+      text-align:center;
+  }
+.top-nav ul li{
+  display: inline-block;
+  text-align: center;
+
+  }
+}
