@@ -1,6 +1,12 @@
 
 
 @media only screen and (min-width: 650px){
+.main-content-crafts{
+    margin-top: 95px;
+}
+.main-content-home {
+    margin-top: 90px;
+}
 .top-nav ul{
       margin:0;
       padding:0;
@@ -17,9 +23,10 @@
 
   }
   .photo-cell-two img {
-  	  width: 47%;
+  	  width: 46.65%;
     	display: inline-block;
     	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
+      margin-bottom: 1.5%;
   }
 }
 
@@ -28,16 +35,16 @@
   	margin-top: 75px;
   }
   .logo{
-    display:inline-block;
-  	margin: 0;
-  	text-align: left;
+    display:inline;
+  	float: left;
+    padding: .25em;
+    padding-top: .60em;
   }
 
   .top-nav ul{
-        margin:0;
-        padding:0;
+        padding: 1em;
         text-align:right;
-        display:inline;
+        display-right: inline-block;
 
     }
   .top-nav ul li{
@@ -48,23 +55,27 @@
 
     .photo-cell img {
         width: 47%;
+        margin-bottom: 1.25%;
         display: inline-block;
         box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
     }
 
     .photo-cell {
         display: inline;
-        margin-bottom: 2%;
+        /* margin-bottom: 2%; */
         margin-left: 2%
 
     }
 
     .photo-cell-two {
         display: inline;
-        margin-bottom: 4%;
+        margin-top: 0;
+        /* margin-bottom: 4%; */
 
     }
     .photo-cell-two img {
+
+        margin-top: 0;
     	  width: 22.25%;
       	display: inline-block;
       	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
