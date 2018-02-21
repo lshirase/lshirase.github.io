@@ -39,7 +39,7 @@ aside{
   background-image: url("http://www.literarygenius.info/images/william-shakespeare.jpg");
   background-repeat: no-repeat;
   background-size:contain;
-  background-position: center;
+  background-position: center bottom;
   bottom: 0;
   float: right;
   position: absolute;
