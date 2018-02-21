@@ -35,11 +35,19 @@ nav li a{
 
 aside{
   background-color: white;
+  background-image: url("http://www.literarygenius.info/images/william-shakespeare.jpg");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: bottom;
+  bottom: 0;
+  float: right;
   position: absolute;
   right: 0px;
   list-style-position: inside;
-  padding-right: 65px;
-  padding-bottom: 255px;
+  top: 80px;
+  bottom: 73px;
+  /* padding-right: 65px;
+  padding-bottom: 255px; */
 }
 
 aside li{
