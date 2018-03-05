@@ -5,7 +5,7 @@ Add some plain old CSS style so that the "emailfield" paragraph isn't displayed 
 
 Step 2: Adding a function template
 Create a new function called toggleEmail() that simply displays an alert, ie. window.alert("Yep, my function is being called");
-Add an event so that when the checkbox is clicked your function is called and test that it works! 
+Add an event so that when the checkbox is clicked your function is called and test that it works!
 
 Step 3: Display the email fields
 Now we'll replace that alert() code so that our function actually does something useful! Using JavaScript, make the emailfield paragraph appear when the checkbox is clicked.
@@ -16,14 +16,24 @@ When you test your form at the moment, you'll notice that you can click on the c
   <head>
     <title>JavaScript Challenges</title>
     <style>
-    /*    YOUR CODE HERE - check Step 1*/ 
+    #emailfield{
+      display: none;
+    }
     </style>
-    
+
     <script type="text/javascript">
 	function toggleEmail(){
-		/*    YOUR CODE HERE - check Step 1*/ 
+    // var emailField = document.getElementById('emailfield');
+    var emailField = document.querySelector('#emailfield');
+    var subscribe= document.querySelector('#subscribe');
+    if (subscribe.checked) {
+      emailField.style.display = 'block';
+    } else {
+      emailField.style.display = "none";
+    }
+    console.log(emailField);
 
-	} 
+	}
     </script>
   </head>
   <body>
@@ -40,7 +50,7 @@ When you test your form at the moment, you'll notice that you can click on the c
 
         <div id="emailfield">
           <label>
-            Email Address: 
+            Email Address:
             <input type="text" name="email" id="email">
           </label>
         </div>
