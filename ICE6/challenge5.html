@@ -35,10 +35,26 @@
 		text-align: center;
 	}
 	</style>
-
 	<script type="text/javascript">
-	// I used Two functions here.  Starter idea at: 
+	// I used Two functions here.  Starter idea at:
 	// https://codepen.io/ColleenEMc/pen/XmZzWw
+	function upDate(previewPic){
+		var preview = previewPic.src;
+		var previewAlt = previewPic.alt;
+		var image = document.getElementById('image');
+
+		image.style.backgroundImage = "url(" + preview + ")";
+		image.innerHTML = previewAlt;
+	}
+
+	function unDo(){
+		var image = document.getElementById('image');
+		image.style.backgroundImage = "";
+
+		image.innerHTML = "Hover over an image below.";
+
+	}
+
 	</script>
 </head>
 
@@ -49,21 +65,25 @@
 		</div>
 
 		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
-		<img class = "preview" 
-			alt = "Styling with a Bandana" 
-			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg";
-			>
+		<img class = "preview" tabindex = "1"
+			alt = "Styling with a Bandana"
+			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg"
+			onmouseover = "upDate(this)" onmouseleave = "unDo()"
+			onFocus = "upDate(this)" onBlur = "unDo()";>
 
 
-		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->	
-		<img class = "preview" 
-			alt = "With My Boy" 
-			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG";>
-	
 		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
-		<img class = "preview" tabindex = "1" 
-			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" 
-			alt = "Young Puppy";>
+		<img class = "preview" tabindex = "2"
+			alt = "With My Boy"
+			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG"
+			onmouseover = "upDate(this)" onmouseleave = "unDo()"
+			onFocus = "upDate(this)" onBlur = "unDo()";>
+
+		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
+		<img class = "preview" tabindex = "3"
+			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg"
+			alt = "Young Puppy"
+			onmouseover = "upDate(this)" onmouseleave = "unDo()"
+			onFocus = "upDate(this)" onBlur = "unDo()";>
 </body>
 </html>
-	
