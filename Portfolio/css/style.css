@@ -50,21 +50,20 @@ nav ul li a:hover {
 	color: #34B484;
 }
 
-.home {
-  margin: 0 auto;
-  width: 100%;
-  text-align: center;
-
-}
+/* .home {
+  position:absolute;
+  left: 0px;
+  text-align: left;
+} */
 
 /*styling open close button*/
 .button {
-	display:inline;
+	display:inline-block;
 	position:absolute;
 	right:35px;
-	top:10px;
+	top:17px;
 	z-index:999;
-	font-size:30px;
+	font-size:25px;
 }
 .button a {
 	text-decoration:none;
@@ -111,16 +110,21 @@ nav ul li a:hover {
 	text-align:center;
 	max-width:90%;
 	margin:0 auto;
+
+
 }
 .wrap ul.wrap-nav {
 	padding:150px 0px 100px;
+  position: relative;
+  vertical-align: middle;
 }
 .wrap ul.wrap-nav li {
 	font-size: 30px;
 	display:inline-block;
-	vertical-align:top;
+	vertical-align: middle;
 	width:24%;
 	position:relative;
+
 }
 .wrap ul.wrap-nav li a {
 	color:#34B484;
