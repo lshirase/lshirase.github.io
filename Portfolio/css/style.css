@@ -1,7 +1,7 @@
 
 
 body {
-	margin:0;
+	margin:10px;
 	padding:0;
 	background:#fff;
 	font-family:'Monospace',serif;
@@ -17,6 +17,9 @@ li {
 	padding:0;
 	margin:0;
 }
+
+
+
 nav {
 	text-align:center;
 	width:100%;
@@ -26,7 +29,7 @@ nav {
 	background:none;
 }
 nav ul {
-	text-align:center;
+	text-align:right;
 }
 nav ul li {
 	display:inline-block;
@@ -46,6 +49,14 @@ nav ul li a {
 nav ul li a:hover {
 	color: #34B484;
 }
+
+.home {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+
+}
+
 /*styling open close button*/
 .button {
 	display:inline;
