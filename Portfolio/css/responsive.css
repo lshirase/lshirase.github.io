@@ -1,18 +1,3 @@
-/* @media screen and (max-width:48em) {
-	.wrap ul.wrap-nav>li {
-		width:100%;
-		padding:20px 0;
-		border-bottom:1px solid #575757;
-	}
-	.wrap ul.wrap-nav {
-		padding:30px 0px 0px;
-	}
-	nav ul {
-		opacity:0;
-		visibility:hidden;
-	}
-
-} */
 
 @media only screen and (min-width: 320px){
   .wrap ul.wrap-nav li {
@@ -31,6 +16,35 @@
     display: none;
   }
 
+  h1 {
+    font-size: 25px;
+    font-weight: normal;
+    margin-left: 1.5%
+
+  }
+  .highlight h3 {
+    font-size: 20px;
+    /* margin-left: 1.5% */
+
+  }
+
+  .highlight h4 {
+    font-size: 15px;
+
+  }
+
+  h3 {
+    font-size: 20px;
+    /* margin-left: 1.5% */
+
+  }
+
+  h4 {
+    font-size: 15px;
+
+  }
+
+
   .homeul {
     display: inline-block;
   }
@@ -45,15 +59,144 @@
   .button {
     display: inline-block;
   }
+
+  .main-content-crafts {
+  padding: 0 45px;
+
+  }
+  .highlight {
+      width: 95%;
+      /* height: 500px; */
+      display: inline;
+  }
+  .highlight img {
+      width: 95%;
+      /* height: 500px; */
+      display: inline-block;
+  }
+
+  .photo-cell img {
+      width: 95%;
+      /* height: 20%; */
+      display: inline-block;
+  }
+
+  .photo-cell-two img {
+      width: 95%;
+      /* height: 20%; */
+      display: inline-block;
+  }
+
+  .photo-cell {
+      /* box-sizing: border-box;
+      display: inline;
+      width: 50%;
+      margin-bottom: 2%;
+      margin-left: 1.5% */
+  }
+
 }
 
 
 @media only screen and (min-width: 768px){
+  h1 {
+    font-size: 35px;
+  }
+  /* h3 {
+    display: inline-block;
+  }
+
+  h4 {
+    display: inline-block;
+
+  } */
+
+  .highlight h3 {
+    font-family:'Avenir', sans-serif;
+    /* font-weight: normal; */
+    font-size: 25px;
+    margin-left: 1.5%
+
+  }
+
+  .highlight h4 {
+    font-family:'Avenir', sans-serif;
+    font-weight: normal;
+    color: rgba(91, 94, 110, 0.59);
+    font-size: 20px;
+    margin-left: 1.5%;
+    margin-top: -1%;
+  }
+
+  .photo-cell img {
+      width: 47%;
+      /* height: 20%; */
+      display: inline;
+      float: left;
+      clear: both;
+  }
+
+  .photo-cell {
+      /* box-sizing: border-box; */
+      display: inline;
+      /* width: 50%; */
+      /* margin-bottom: 2%; */
+      margin-left: 1.5%;
+  }
+
+  .photo-cell-two img {
+      width: 47%;
+      /* height: 20%; */
+      display: inline;
+  }
+
+  .photo-cell-two {
+      /* box-sizing: border-box; */
+      display: inline;
+      /* width: 50%; */
+      /* margin-bottom: 2%; */
+      /* margin-left: 1.5%; */
+  }
+
+  h3 {
+    display: inline-block;
+  }
+
+  h4 {
+    display: inline-block;
+  }
+
+  .proj {
+    width: 47%;
+    float: left;
+    clear:both;
+    display: inline;
+
+  }
+
+  .protwo {
+    width: 47%;
+    display: inline;
+    text-align:
+
+  }
 
 }
 
 
 @media only screen and (min-width: 992px){
+
+  body {
+  	margin: 0 50px;
+  }
+  h1 {
+    font-size: 45px;
+    font-weight: normal;
+    /* margin-left: 1.5% */
+
+  }
+
+
   .homeul {
     display: none;
   }
@@ -68,7 +211,7 @@
 
   .home {
     position:absolute;
-    left: 0px;
+    left: 0;
     text-align: left;
     width: auto;
   }
@@ -77,5 +220,38 @@
     visibility:hidden;
     display:none;
   }
+
+  .main-content-crafts {
+  padding: 0 45px;
+
+  }
+  .highlight {
+      width: 100%;
+      /* height: 500px; */
+      display: inline;
+  }
+  .highlight img {
+      /* height: 50%; */
+      /* width: 100%;
+      height: 500px; */
+      /* display: inline-block; */
+  }
+
+
+  .proj {
+    width: 47%;
+    float: left;
+    clear:both;
+    display: inline;
+
+  }
+
+  .protwo {
+    width: 47%;
+    display: inline;
+    text-align:
+
+  }
+
 
 }

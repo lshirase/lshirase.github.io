@@ -1,4 +1,8 @@
-
+@-webkit-keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+@-moz-keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+@-ms-keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+@-o-keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
 
 body {
 	margin: 0;
@@ -6,6 +10,49 @@ body {
 	background:#fff;
 	font-family:'Monospace',serif;
 	font-size: 20px;
+}
+
+h1 {
+  font-family:'Monospace',serif;
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 5s; /* Firefox < 16 */
+        -ms-animation: fadein 5s; /* Internet Explorer */
+         -o-animation: fadein 5s; /* Opera < 12.1 */
+            animation: fadein 5s;
+}
+
+.highlight h3 {
+  font-family:'Avenir', sans-serif;
+  /* font-weight: normal; */
+  font-size: 25px;
+  margin-left: 1.5%
+
+}
+
+.highlight h4 {
+  font-family:'Avenir', sans-serif;
+  font-weight: normal;
+  color: rgba(91, 94, 110, 0.59);
+  font-size: 20px;
+  margin-left: 1.5%;
+  margin-top: -1%;
+
+}
+
+h3 {
+  font-family:'Avenir', sans-serif;
+  font-size: 25px;
+  margin-left: 1.5%
+
+}
+
+h4 {
+  font-family:'Avenir', sans-serif;
+  font-weight: normal;
+  color: rgba(91, 94, 110, 0.59);
+  font-size: 20px;
+  margin-left: 1.5%;
+  margin-top: -1%;
 }
 ul {
 	margin:0;
@@ -102,7 +149,7 @@ nav ul li a:hover {
 	height:100%;
 	width:100%;
 	background:#333;
-	overflow:auto;
+	/* overflow:auto; */
 	z-index:99;
 }
 .wrap {
@@ -154,13 +201,4 @@ nav ul li a:hover {
 }
 .wrap ul.wrap-nav ul li a:hover {
 	color:#34B484;
-}
-
-
-.content {
-	width:100%;
-	margin-top:200px;
-	font-size:20px;
-	color#333;
-	text-align: center;
 }
