@@ -19,12 +19,12 @@
   h1 {
     font-size: 25px;
     font-weight: normal;
-    margin-left: 1.5%
+    margin-left: 4%
 
   }
   .highlight h3 {
     font-size: 20px;
-    /* margin-left: 1.5% */
+    margin-right: 3%;
 
   }
 
@@ -35,6 +35,7 @@
 
   h3 {
     font-size: 20px;
+    margin-right: 3%;
     /* margin-left: 1.5% */
 
   }
@@ -95,10 +96,17 @@
       margin-left: 1.5% */
   }
 
+  .photo-grid {
+    margin-left: 4%;
+  }
+
 }
 
 
 @media only screen and (min-width: 768px){
+  body {
+    margin: 0 10px;
+  }
   h1 {
     font-size: 35px;
   }
@@ -110,6 +118,11 @@
     display: inline-block;
 
   } */
+
+
+  .main {
+    position: center;
+  }
 
   .highlight h3 {
     font-family:'Avenir', sans-serif;
@@ -142,6 +155,7 @@
       /* width: 50%; */
       /* margin-bottom: 2%; */
       margin-left: 1.5%;
+
   }
 
   .photo-cell-two img {
@@ -177,7 +191,7 @@
   .protwo {
     width: 47%;
     display: inline;
-    text-align:
+    /* text-align: left; */
 
   }
 
@@ -187,12 +201,15 @@
 @media only screen and (min-width: 992px){
 
   body {
-  	margin: 0 50px;
+  	margin: 0 45px;
   }
   h1 {
     font-size: 45px;
     font-weight: normal;
-    /* margin-left: 1.5% */
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-left: 4%
+
 
   }
 
@@ -209,11 +226,16 @@
     visibility:visible;
   }
 
+  nav .bar {
+    margin-right: 3%;
+  }
+
   .home {
     position:absolute;
     left: 0;
     text-align: left;
     width: auto;
+    margin-left: 3%;
   }
   .button {
     opacity:0;
@@ -221,7 +243,7 @@
     display:none;
   }
 
-  .main-content-crafts {
+  .main {
   padding: 0 45px;
 
   }
@@ -235,6 +257,15 @@
       /* width: 100%;
       height: 500px; */
       /* display: inline-block; */
+  }
+  .photo-cell-two {
+      width: 47%;
+      /* height: inherit; */
+      display: inline;
+  }
+
+  .fandango {
+    height: 50%;
   }
 
 
