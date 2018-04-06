@@ -262,7 +262,7 @@ nav ul .active {
 /* ---------------- */
 
 .info {
-  background-image: url("../../Portfolio/img/hearts.gif");
+  background-image: url("../img/hearts.gif");
   background-repeat: repeat;
   background-position:top right;
   background-clip: padding-box;
