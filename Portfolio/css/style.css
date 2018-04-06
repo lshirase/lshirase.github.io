@@ -76,7 +76,9 @@ li {
 	margin:0;
 }
 
-
+a:-webkit-any-link {
+  text-decoration: none;
+}
 
 nav {
 	text-align:center;
@@ -255,7 +257,15 @@ nav ul .active {
 }
 /* ---------------- */
 
-
+.info {
+  background-image: url("../../Portfolio/img/hearts.gif");
+  background-repeat: repeat;
+  background-position:top right;
+  background-clip: padding-box;
+  padding: 30px 45px 25px 25px;
+  overflow: visible;
+  /* background-origin:  */
+}
 
 
 
