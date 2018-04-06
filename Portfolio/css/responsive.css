@@ -100,6 +100,10 @@
     margin-left: 4%;
   }
 
+  .col-md-5 {
+    display: none;
+  }
+
   /* .foot li {
     display: inline-block;
     float:none;
@@ -202,6 +206,10 @@
 
   }
 
+  .col-md-5 {
+    display: block;
+  }
+
 }
 
 
@@ -216,9 +224,8 @@
     margin-left: 40px;
     margin-right: 40px;
     margin-left: 4%
-
-
   }
+
 
 
   .homeul {
@@ -254,6 +261,9 @@
   padding: 0 45px;
 
   }
+  .container {
+    margin-left: 6%;
+  }
   .highlight {
       width: 100%;
       /* height: 500px; */
@@ -271,9 +281,7 @@
       display: inline;
   }
 
-  .fandango {
-    height: 50%;
-  }
+
 
 
   .proj {
