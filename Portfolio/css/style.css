@@ -107,12 +107,12 @@ nav ul li a {
 	font-size: 20px;
 }
 nav ul li a:hover {
-	color: red;
+	color: #FF0000;
 }
 
 nav ul .active {
   text-decoration: line-through;
-  text-decoration-color: red;
+  text-decoration-color: #FF0000;
 }
 
 /* .home {
@@ -144,7 +144,7 @@ nav ul .active {
 	-o-transition:all .2s linear 0s;
 }
 .btn-open:hover:after {
-	color:red;
+	color:#FF0000;
 }
 .btn-close:after {
 	color:black;
@@ -157,7 +157,7 @@ nav ul .active {
 	-o-transition:all .2s linear 0s;
 }
 .btn-close:hover:after {
-	color: red;
+	color: #FF0000;
 }
 /*overlay*/
 .overlay {
@@ -203,7 +203,7 @@ nav ul .active {
 	-o-transition:all .2s linear 0s;
 }
 .wrap ul.wrap-nav li a:hover {
-	color:red;
+	color:#FF0000;
 }
 .wrap ul.wrap-nav ul {
 	padding:20px 0;
@@ -223,7 +223,7 @@ nav ul .active {
 
 .wrap ul.wrap-nav li a.active {
   text-decoration: line-through;
-  text-decoration-color: red;
+  text-decoration-color: #FF0000;
 }
 
 /* custom bootsrap styles */
@@ -309,7 +309,7 @@ footer {
 }
 
 .foot li a:hover {
-  color: red;
+  color: #FF0000;
 }
 
 
