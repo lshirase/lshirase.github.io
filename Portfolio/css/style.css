@@ -311,6 +311,18 @@ footer {
 .foot li a:hover {
   color: red;
 }
+
+
+
+.gallery {
+    margin: 45px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
+}
 /* .projtwo {
   padding-bottom: 10px;
 } */
