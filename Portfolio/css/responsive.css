@@ -128,7 +128,7 @@
       column-count: 1;
       -webkit-column-width: 100%;
       -moz-column-width: 100%;
-      column-width: 100%;
+      column-width: inherit;
   }
 
 
@@ -151,10 +151,6 @@
 
   } */
 
-
-  .main {
-    position: center;
-  }
 
   .highlight h3 {
     font-family:'Avenir', sans-serif;
@@ -329,7 +325,6 @@
   .projtwo {
     width: 47%;
     display: inline;
-    text-align:
 
   }
   .info {
@@ -356,7 +351,7 @@
       column-count: 3;
       -webkit-column-width: 33%;
       -moz-column-width: 33%;
-      column-width: 33%;
+      column-width: inherit;
   }
 
 
