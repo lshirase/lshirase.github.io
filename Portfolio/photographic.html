@@ -1,33 +1,31 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>len shirase</title>
 	<meta charset="UTF-8">
+	<link rel="icon" type="image/png" href="img/favicon.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--Style-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 
 	<script>
-
 		$(document).ready(function(){
     $(".button a").click(function(){
         $(".overlay").fadeToggle(200);
        $(this).toggleClass('btn-open').toggleClass('btn-close');
     });
 });
-
-
 		$('.overlay').on('click', function(){
 	    $(".overlay").fadeToggle(200);
 	    $(".button a").toggleClass('btn-open').toggleClass('btn-close');
 	    open = false;
 	});
-
 	</script>
 
 </head>
@@ -43,7 +41,6 @@
 		<li><a href="photographic.html" tabindex="1">photo//graphic</a></li>
 		<li><a href="moreinfo.html" tabindex="1">more info</a></li>
 	</ul>
-
 	<div class="button">
 		<a class="btn-open" href="#" aria-label="Hamburger Navigation/Exit Hamburger Navigation" tabindex="1"></a>
 	</div>
@@ -51,18 +48,13 @@
 	<div class="overlay">
 		<div class="wrap">
 			<ul class="wrap-nav">
-					<li><a href="photographic.html"  class = "active">photo//graphic</a></li>
-=======
 					<li><a href="ux.html"  class = "active">ux</a></li>
 					<li><a href="photographic.html">photo//graphic</a></li>
->>>>>>> parent of 85a0a7d... fixed active class in nav
 					<li><a href="moreinfo.html">more info</a></li>
 			</ul>
-
 		</div>
 	</div>
 	</header>
-
 
 
 
@@ -125,13 +117,14 @@
 
 
 
-		<footer>
-			<ul class = "foot">
-				<li><a href="https://www.instagram.com/lshirase/" tabindex="5" aria-label="Link to Instagram"><i class="fab fa-instagram"></i></a></li>
-				<li><a href="https://www.linkedin.com/in/lshirase/" tabindex="6" aria-label="Link to LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
-				<li><a href="https://twitter.com/lennyshirase" tabindex="7" aria-label="Link to Twitter"><i class="fab fa-twitter"></i></a></li>
-			</ul>
-		</footer>
+
+	<footer>
+		<ul class = "foot">
+			<li><a href="https://www.instagram.com/lshirase/" tabindex="5" aria-label="Link to Instagram"><i class="fab fa-instagram"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/lshirase/" tabindex="6" aria-label="Link to LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+			<li><a href="https://twitter.com/lennyshirase" tabindex="7" aria-label="Link to Twitter"><i class="fab fa-twitter"></i></a></li>
+		</ul>
+	</footer>
 
 </body>
 </html>
