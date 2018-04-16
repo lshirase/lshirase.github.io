@@ -188,7 +188,6 @@
 
   .photo-cell-two img {
       width: 47%;
-      margin-bottom: -5px;
       /* height: 20%; */
       display: inline;
   }
@@ -217,20 +216,12 @@
 
   }
 
-  .projtwotest {
+  .projtwo {
     width: 47%;
-    float: right;
-    clear:both;
     display: inline;
+    /* text-align: left; */
 
   }
-
-  /* .projtwo {
-    width: 47%;
-  display: block;
-
-
-  } */
 
   .col-md-5 {
     display: block;
@@ -331,16 +322,10 @@
 
   }
 
-  /* .projtwo {
+  .projtwo {
     width: 47%;
     display: inline;
-  } */
 
-  .projtwotest {
-    width: 47%;
-    float: right;
-    clear:both;
-    display: inline;
   }
   .info {
     padding: 30px 45px 25px 25px;
