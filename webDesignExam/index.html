@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>len shirase exam</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Style-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script>
+
+		$(document).ready(function(){
+    $(".button a").click(function(){
+        $(".overlay").fadeToggle(200);
+       $(this).toggleClass('btn-open').toggleClass('btn-close');
+    });
+});
+
+
+		$('.overlay').on('click', function(){
+	    $(".overlay").fadeToggle(200);
+	    $(".button a").toggleClass('btn-open').toggleClass('btn-close');
+	    open = false;
+	});
+
+	</script>
+
+</head>
+<body>
+<h1> Len Shirase </h1>
+
+	<div class="photo-cell">
+		<img class="resp-img" src="images/examPic.jpg" alt="Black Horizontal Rectangle">
+	</div>
+	<div class="photo-cell">
+		<img class="resp-img" src="images/UMSI-logo.jpg" alt="Maroon Horizontal Rectangle">
+	</div>
+	<button onclick="myFunction()">Click Me</button>
+	<button onclick="myFunction()">Click Me</button>
+</br></br></br></br>
+</body>
+</html>
