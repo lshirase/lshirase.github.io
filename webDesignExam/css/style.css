@@ -1,11 +1,13 @@
 body {
 	margin: 0;
 	width: 100%;
+	overflow-x: hidden;
 	background-image: url("../images/funky-lines.png");
 }
 
 h1 {
 	margin-bottom: 0;
+	margin-right: 0;
 }
 .container{
   font-size: 0;  /* parent value */
