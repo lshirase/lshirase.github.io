@@ -1,21 +1,34 @@
 body {
 	margin: 0;
+	width: 100%;
+	background-image: url("../images/funky-lines.png");
 }
 
+h1 {
+	margin-bottom: 0;
+}
+.container{
+  font-size: 0;  /* parent value */
+	margin: 0 auto;
+}
 .photo-cell {
 	box-sizing: border-box;
 	display: inline-block;
 	border: 5px solid blue;
 	padding: 5%;
 	width: 50%;
-	margin: 0;
-	float: left;
+	font-size: 16px;
+	/* margin: 0; */
 }
 
 
 .photo-cell img{
-	display: block;
+	/* display: block; */
 	width: 100%;
 	padding: 0;
 	margin: 0;
+}
+
+#buttons {
+	display: block;
 }

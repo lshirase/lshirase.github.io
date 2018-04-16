@@ -27,20 +27,44 @@
 	    open = false;
 	});
 
+
+	function hideImage() {
+	    var x = document.getElementById("hide");
+			var center = document.getElementById("center");
+	       x.style.display = "none";
+				 center.style.margin= "0 auto";
+				 center.style.display= "block";
+	    }
+
+	function showImage() {
+			var x = document.getElementById("hide");
+			var center = document.getElementById("center");
+			     x.style.display = "inline-block";
+					 center.style.display= "inline-block";
+
+			   }
+
+
+
+
 	</script>
 
 </head>
 <body>
 <h1> Len Shirase </h1>
+<div class= "container">
+	<div class="photo-cell" id= "hide">
+		<img class="resp-img" src="images/examPic.jpg" alt="Colleen chillin">
+	</div>
+	<div class="photo-cell" id= "center">
+		<img class="resp-img" src="images/UMSI-logo.jpg" alt="UMSI logo">
+	</div>
+</div>
+	<div id = "buttons">
+	<button onclick="hideImage()">Hide Image</button>
+	<button onclick="showImage()">Show Image</button>
+</div>
 
-	<div class="photo-cell">
-		<img class="resp-img" src="images/examPic.jpg" alt="Black Horizontal Rectangle">
-	</div>
-	<div class="photo-cell">
-		<img class="resp-img" src="images/UMSI-logo.jpg" alt="Maroon Horizontal Rectangle">
-	</div>
-	<button onclick="myFunction()">Click Me</button>
-	<button onclick="myFunction()">Click Me</button>
-</br></br></br></br>
+
 </body>
 </html>
